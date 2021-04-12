@@ -5,3 +5,4 @@ Bash
 Git
 HTML
 CSS
+JavaScript
