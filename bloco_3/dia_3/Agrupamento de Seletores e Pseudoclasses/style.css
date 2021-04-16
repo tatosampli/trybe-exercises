@@ -1,0 +1,9 @@
+h1, p {
+    text-align: center;
+}
+li:hover {
+    background-color: blue;
+}
+li:visited {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
