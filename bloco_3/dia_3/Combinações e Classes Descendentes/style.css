@@ -1,7 +1,7 @@
 ol {
     background-color: yellow;
 }
-.par {
+ol li:nth-last-of-type(2n) {
     color: green;
 }
 .primo {
@@ -27,4 +27,22 @@ ul.ling li:nth-child(-n+3){
 }
 .tjava {
     background-color:pink;
+}
+a {
+    text-decoration: none;
+}
+ul.aliados li:nth-child(1) a:hover {
+    color: orange;
+}
+ul.aliados li:nth-child(2) a:hover {
+    color: green;
+}
+ul.aliados li:nth-child(3) a:hover {
+    color: black;
+}
+ul.aliados li:nth-child(4) a:hover {
+    color: yellow;    
+}
+ul.aliados li:nth-child(5) a:hover {
+    color:green;
 }

@@ -1,26 +1,27 @@
 div:hover {
     border-width: 10px;
     border-style: solid;
-    border-color: black;
-}
-.azul{
-    color: blue;
-}
-.laranja {
-    color:orange;
-}
-.violeta {
-    color: violet;
-}
-.marrom {
-    color: brown;
-}
-.bege {
-    color: burlywood;
-}
-.font30 {
-    font-size: 25px;
+    font-size: 25px
 }
 .font-italic {
+    font-style: italic;
+}
+div:nth-of-type(1) {
+    border-color: blue;
+}
+div:nth-of-type(2) {
+    border-color: orange;
+}
+div:nth-of-type(3) {
+    border-color: violet;
+    padding: 50px;
+}
+div:nth-of-type(4) {
+    border-color: brown;
+}
+div:nth-of-type(5) {
+    border-color: burlywood;
+}
+div:nth-child(2n+1) {
     font-style: italic;
 }
