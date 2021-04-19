@@ -1,0 +1,81 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    background-color: #7AB2C7;
+    margin: 3% 15% 3% 15%;
+}
+.bodycat {
+    text-align: center;
+}
+#gatinho {
+    width: 500px;
+}
+.sectionp {
+    display: block;
+}
+div.dimg {
+    text-align: center;
+}
+.imgp {
+    margin: 30px 30px 0 30px;
+    width: 600px;
+    border-radius: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2.5em;
+}
+h3 {
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+}
+.imgsection {
+    width: 300px;
+    border-radius: 20px;
+}
+.c-red {
+    color: red;
+}
+.backp {
+    background-color: #559465;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.lista-indice {
+    list-style: none;
+}
+.lista-indice a:visited{
+    color: rgb(250, 86, 86);
+}
+.linhap {
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+    border-color: blue;
+    margin: 50px 0px 50px 0px;
+}
+.classificacao {
+    text-align: center;
+    display: inline-block;
+    border-style: solid;
+    border-color: blue;
+    margin: 30px;
+}
+.classificacao thead{
+    background-color: #559465;
+    color: red;
+}
+.classificacao td{
+    border-style: solid;
+    border-color: blue;
+}
+footer {
+    font-size: 12px;
+}
