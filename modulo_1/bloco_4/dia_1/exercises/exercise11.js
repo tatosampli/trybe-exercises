@@ -1,4 +1,4 @@
-let bruto = 3000;
+let bruto = prompt('Defina o valor do salário bruto:');
 let valorINSS;
 let valorIR;
 let liquido;

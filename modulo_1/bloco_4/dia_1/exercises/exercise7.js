@@ -1,5 +1,4 @@
-let nota;
-nota = 77;
+let nota = prompt("A nota foi:");
 
 if (nota >= 90 && nota <= 100) {
   console.log("A nota é conceito A");

@@ -1,7 +1,7 @@
-let custo = 342.56;
-let venda = 479.80;
+let custo = prompt('Defina o preço de custo:');
+let venda = prompt('Defina o preço de venda:');
 let custoTotal = custo * 1.2;
-let quantidade = 1000;
+let quantidade = prompt('Defina a quantidade de produtos');
 let lucro = (venda - custoTotal) * quantidade;
 
 if (custo >= 0 && venda >= 0 && quantidade >= 0) {

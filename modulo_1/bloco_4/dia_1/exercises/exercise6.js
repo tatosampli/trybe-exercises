@@ -1,4 +1,4 @@
-let piece = window.prompt("Piece");
+let piece = prompt("Piece:");
 let res = piece.toLowerCase();
 
 switch (res) {

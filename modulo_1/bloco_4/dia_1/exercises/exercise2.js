@@ -1,5 +1,5 @@
-let a = 13;
-let b = 21;
+let a = prompt('Defina o primeiro numero:');
+let b = prompt('Defina o segundo numero:');
 
 if (a > b) {
   console.log(a);

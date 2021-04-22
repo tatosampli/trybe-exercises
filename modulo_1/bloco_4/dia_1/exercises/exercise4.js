@@ -1,6 +1,4 @@
-let n = 72;
-// n = -23;
-// n = 0;
+let n = prompt('Defina a variável:');
 
 if (n > 0) {
   console.log("positive");

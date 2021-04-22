@@ -1,6 +1,6 @@
-let a = 7;
-let b = 19;
-let c = 56;
+let a = prompt('Defina o primeiro numero:');
+let b = prompt('Defina o segundo numero:');
+let c = prompt('Defina o terceiro numero:');
 
 if (a > b && a > c) {
   console.log(a);
