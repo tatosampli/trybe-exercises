@@ -1,29 +1,23 @@
-let piece;
-piece = "King";
-// piece = "Queen";
-// piece = "Rook";
-// piece = "Bishop";
-// piece = "Knight";
-// piece = "Pawn";
-// piece = "Alpaca";
+let piece = window.prompt("Piece");
+let res = piece.toLowerCase();
 
-switch (piece) {
-  case "King":
+switch (res) {
+  case "king":
     console.log("One square in any direction");
     break;
-  case "Queen":
+  case "queen":
     console.log("Any one straight direction");
     break;
-  case "Rook":
+  case "rook":
     console.log("Only forward, backward and to the sides, as many squares it can get");
     break;
-  case "Bishop":
+  case "bishop":
     console.log("Only diagonally, as many squares it can get");
     break;
-  case "Knight":
+  case "knight":
     console.log("Two squares in one direction, and then one more move at a 90 degree angle");
     break;
-  case "Pawn":
+  case "pawn":
     console.log("Move only forward, but capture diagonally, one square at a time");
     break;
   default:
