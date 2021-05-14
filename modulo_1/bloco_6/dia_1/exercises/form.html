@@ -11,7 +11,7 @@
   <header>
     <h1 id="title">Formulário de cadastro de currículo</h1>
   </header>
-  <main>
+  <main id="main">
     <form action="" method="GET" id="complete-form">
       <div>
         <label for="input-name">Nome completo:</label>
@@ -30,7 +30,15 @@
         <input type="text" name="city" placeholder="Londres" id="input-city" maxlength="28" required>
         <br>
         <label for="input-state">Estado:</label>
-        <select name="states" id="input-state" required></select>
+        <select name="state" id="input-state" required></select>
+        <br>
+        <p>Tipo de residência:</p>
+        <label for="type1">
+          <input type="radio" name="type" id="type1" class="typeClass" value="Casa" checked required>Casa
+        </label>
+        <label for="type2">
+          <input type="radio" name="type" id="type2" class="typeClass" value="Apartamento" required>Apartamento
+        </label>
       </div>
       <div>
         <label for="input-summary">Resumo do currículo:</label>
@@ -45,8 +53,8 @@
         <label for="input-date">Data de início:</label>
         <input type="text" name="date" placeholder="dd/mm/aaaa" id="input-date" maxlength="10" required>
       </div>
-      <label for="registerButton"></label>
       <button type="submit" id="registerButton">Cadastrar</button>
+      <button id="eraseButton">Limpar</button>
     </form>
   </main>
   <script src="script.js"></script>
