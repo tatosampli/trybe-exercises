@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id="title">Formulário de cadastro de currículo</h1>
+  </header>
+  <main id="main">
+    <form action="" method="GET" id="complete-form">
+      <div>
+        <label for="input-name">Nome completo:</label>
+        <input type="text" name="name" placeholder="Digite seu nome completo" id="input-name" maxlength="40" required>
+        <br>
+        <label for="input-email">Email:</label>
+        <input type="email" name="email" placeholder="exemplo@abc.com" id="input-email" maxlength="50" required>
+        <br>
+        <label for="input-cpf">CPF:</label>
+        <input type="text" name="cpf" placeholder="11 digitos obrigatórios" id="input-cpf" minlength="11" maxlength="11" required>
+        <br>
+        <label for="input-address">Endereço:</label>
+        <input type="text" name="address" placeholder="Rua dos Alfeneiros, nº 4." id="input-address" maxlength="200" required>
+        <br>
+        <label for="input-city">Cidade:</label>
+        <input type="text" name="city" placeholder="Londres" id="input-city" maxlength="28" required>
+        <br>
+        <label for="input-state">Estado:</label>
+        <select name="state" id="input-state" required></select>
+        <br>
+        <p>Tipo de residência:</p>
+        <label for="type1">
+          <input type="radio" name="type" id="type1" class="typeClass" value="Casa" checked required>Casa
+        </label>
+        <label for="type2">
+          <input type="radio" name="type" id="type2" class="typeClass" value="Apartamento" required>Apartamento
+        </label>
+      </div>
+      <div>
+        <label for="input-summary">Resumo do currículo:</label>
+        <textarea name="summary" placeholder="Coloque aqui todas as informações do seu currículo que julgue importantes." id="input-summary" cols="50" rows="20" maxlength="1000" required></textarea>
+        <br>
+        <label for="input-job">Último cargo:</label>
+        <input type="text" name="job" placeholder="Digite seu ultimo cargo" id="input-job" maxlength="40" required>
+        <br>
+        <label for="input-description">Descrição:</label>
+        <textarea name="description" placeholder="Descreva suas atividades no cargo" id="input-description" cols="50" rows="10" maxlength="500" required></textarea>
+        <br>
+        <label for="input-date">Data de início:</label>
+        <input type="text" name="date" placeholder="dd/mm/aaaa" id="input-date" maxlength="10" required>
+      </div>
+      <button type="submit" id="registerButton">Cadastrar</button>
+      <button id="eraseButton">Limpar</button>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
